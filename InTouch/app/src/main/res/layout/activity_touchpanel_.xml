@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    android:orientation="vertical"
+    android:weightSum="1"
+    app:layout_constraintLeft_toLeftOf="parent"
+    tools:layout_editor_absoluteY="8dp">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="128dp"
+        android:layout_marginTop="15dp"
+        android:adjustViewBounds="false"
+        android:background="#4b4b4b"
+        android:scaleType="fitCenter"
+        android:scaleX="1.50"
+        android:scaleY="1.5"
+        app:srcCompat="@drawable/g" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="60dp"
+        android:layout_weight="0.32"
+        android:background="@drawable/buttonsos"
+        android:gravity="center"
+        android:onClick="sos_btn"
+        android:text="SOS"
+        android:textColor="#FFF"
+        android:textSize="42sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#FFF"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.32"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:onClick="first_btn"
+        android:text="FIRST"
+        android:textSize="42sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:textColor="#FFF"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.32"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:onClick="second_btn"
+        android:text="SECOND"
+        android:textSize="42sp" />
+</LinearLayout>
+
